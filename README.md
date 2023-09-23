@@ -1,27 +1,13 @@
 # Anagrammaties
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+Hierdie projek genereer anagramme en gedeeltelike anagramme van 'n bronwoord. Dit word gedoen deur 'n woordelys as beginpunt te gebruik en alle woorde te stroop wat nie moontlik kan anagramme wees nie.
 
-## Development server
+## Gebruik
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Installeer Nodejs v16 en voer die volgende uit: `npm install`.
 
-## Code scaffolding
+Daarna kan jy die program uitvoer met `ng serve`. Gebruik die volgende webadres: `http://localhost:4201/`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Woordelys
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Die woordelys is onder `src/app/assets`

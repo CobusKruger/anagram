@@ -71,6 +71,9 @@
               "browserTarget": "Anagrammaties:build:development"
             }
           },
+          "options": {
+            "port": 4201
+          },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
@@ -100,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "957a103e-bde7-436d-8e90-3cf3a65a79c7"
   }
 }
